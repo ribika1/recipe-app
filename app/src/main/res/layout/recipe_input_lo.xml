@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/TitleTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title" />
+
+            <EditText
+                android:id="@+id/TitleEnter"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Author"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/AuthTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author" />
+
+            <EditText
+                android:id="@+id/AuthEnter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/CookTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/CTTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cook Time" />
+
+            <EditText
+                android:id="@+id/CTEnter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="(e.g. 1 hr 40 min)" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/PrepTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/PTTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prep Time" />
+
+            <EditText
+                android:id="@+id/PTEnter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="(e.g. 15 min)" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/IngTag"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:text="Ingredients" />
+
+            <EditText
+                android:id="@+id/IngEnter"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="(listed with a comma in between\ne.g. 2 lemons, 1 1/2 c sugar, 1 c butter)" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Steps"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/StepsTag"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:text="Steps" />
+
+            <EditText
+                android:id="@+id/StepsEnter"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="(listed with a comma in between e.g. Preheat the oven to 375, Mix butter and sugar)" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/SaveRecipe"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Submit Recipe"
+        tools:text="@string/submit" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="drawer1">Explore</string>
+    <string name="drawer2">Shopping List</string>
+    <string name="drawer3">My Recipes</string>
+    <string name="explore1">Browse Recipes</string>
+    <string name="explore2">Add A Recipe</string>
+    <string name="upload1">By URL</string>
+    <string name="upload2">By Photo</string>
+    <string name="upload3">By Hand</string>
+    <string name="uploadSearch">Search For Recipes</string>
+    <string name="submit">Upload Recipe</string>
+</resources>

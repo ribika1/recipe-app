@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "82643902683",
+    "firebase_url": "https://cookies-recipe-app.firebaseio.com",
+    "project_id": "cookies-recipe-app",
+    "storage_bucket": "cookies-recipe-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82643902683:android:b10400dc6df182da74ecfe",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82643902683-0anrjjc0k8u7f3r902vt17lgbi7eddue.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "12cd6477fbb088c1212c6db1f5ad3552dbded21c"
+          }
+        },
+        {
+          "client_id": "82643902683-kp79gkr0h39qpgo116fena2fcfgr0jjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArQm3ZnamKjLAkYrQtuEdKgk1f655Oppg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82643902683-kp79gkr0h39qpgo116fena2fcfgr0jjg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

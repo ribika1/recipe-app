@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+
+    <Button
+        android:id="@+id/urlUP"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/upload1" />
+
+    <Button
+        android:id="@+id/photoUp"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/upload2" />
+
+    <Button
+        android:id="@+id/manUp"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="110dp"
+        android:text="@string/upload3" />
+
+</LinearLayout>
